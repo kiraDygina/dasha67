@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+
+  font-family: "Playfair Display", serif;
+  background-color: #fbf5f5;
+}
+
+
+  
+nav a{
+    color:black;
+    font-size: 18px;
+    font-weight: 900;
+text-decoration: none; 
+}
+
+nav a:hover{color: red;
+text-decoration: underline;}
+
+h1{text-align: center;
+font-size: 64px;
+font-weight: 900;
+
+
+}
+nav{background-image: url(https://images.avrora.ua/images/thumbnails/1180/648/promo/168/den-shopingu-landing-7-11-25_1_jbmt-sk.webp?t=25110916);
+padding: 20px;
+width: 150px;
+line-height: 40px;
+border-radius: 10px;
+
+}
+.link{text-align: center;
+font-weight: 700;}
+.link:hover{
+color: red}
+
+h1{text-shadow: 5px 5px 7px yellow;}
+
+
+
+
+section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+
+section div {
+  background: #ffffff;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  width: 200px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform .3s ease, box-shadow .3s ease;
+}
+
+section div:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
+
+section img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+section p {
+  font-size: 16px;
+  margin: 10px 0 5px;
+}
+
+section h3 {
+  font-size: 20px;
+  font-weight: 900;
+  margin: 5px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slider-container {
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.slider-track {
+  display: flex;
+  gap: 20px;
+}
+
+.product-card {
+  min-width: 300px; /* ширина однієї карточки */
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  background: #f4f4f4;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.product-card img{width: 300px;
+height: 600px;
+object-fit: contain;}
+header{display: flex;
+justify-content: space-around;}
+
+
+
+
+
+.link{background-color: yellow;
+text-decoration: none;
+padding: 10px;
+margin: 20px;
+border-radius: 30px;
+color:black}
+
+.link:hover{background-color:rgba(255, 255, 0, 0.733);}
+
+.koroBka{display: flex;
+justify-content: space-around;align-items: center;}
+
+
+
+.icon{width: 20px;
+height: 20px;
+margin-left: 20px;}
+
+
+
+.logo{
+  width: 110px;
+  height: 50px;
+}
+
+.AVRORE{width:150PX ;
+height:50px ;}
+
+footer{display: flex;
+justify-content: space-around;
+background-color: yellow;
+}
+
+ul{list-style: none;
+font-size: 18px;
+font-family: 700;
+line-height: 40px;}
+
+li:hover{color: orangered ;
+text-decoration: underline;
+text-shadow: 5px 5px 7px rgb(255, 144, 103);}
+
+.CKNDKA{width: 70px;
+height: 70px;
+position: relative;
+left: 100px;
+box-shadow: 3px 4px 6px 2px red;
+}
